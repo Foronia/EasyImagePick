@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_transparent"
+    android:paddingBottom="10dp">
+
+    <LinearLayout
+        android:id="@+id/ll_popup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/item_ll_popup"
+        android:layout_marginLeft="12dp"
+        android:background="@drawable/item_popup_style"
+        android:layout_marginRight="12dp"
+        android:orientation="vertical" >
+            <Button
+                android:id="@+id/item_popupwindows_camera"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:textColor="#434343"
+                android:textSize="18sp"
+                android:background="#00000000"
+                android:text="拍照" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/lianxiwomen_line"
+            ></LinearLayout>
+            <Button
+                android:id="@+id/item_popupwindows_Photo"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:textColor="#434343"
+                android:textSize="18sp"
+                android:background="#00000000"
+                android:text="从相册中选取" />
+        <LinearLayout
+            android:id="@+id/item_three_line"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/lianxiwomen_line"
+            android:visibility="gone"
+            ></LinearLayout>
+            <Button
+                android:id="@+id/item_popupwindows_three"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:textColor="#434343"
+                android:textSize="18sp"
+                android:background="#00000000"
+                android:visibility="gone"/>
+        <LinearLayout
+            android:id="@+id/item_video_line"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/lianxiwomen_line"
+            android:visibility="gone"
+            ></LinearLayout>
+            <Button
+                android:id="@+id/item_popupwindows_video"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:textColor="#434343"
+                android:textSize="18sp"
+                android:text="上传视频"
+                android:background="#00000000"
+                android:visibility="gone"/>
+        </LinearLayout>
+    <LinearLayout
+        android:id="@+id/item_ll_popup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="12dp"
+        android:background="@drawable/item_popup_style"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="12dp">
+        <Button
+            android:id="@+id/item_popupwindows_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:textColor="#434343"
+            android:background="#00000000"
+            android:textSize="18sp"
+            android:text="取消" />
+    </LinearLayout>
+
+</RelativeLayout>

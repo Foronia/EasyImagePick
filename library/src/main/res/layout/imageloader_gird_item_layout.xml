@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:id="@+id/id_item_image"
+        android:src="@drawable/circle_imgload_zj"/>
+    <ImageButton
+        android:id="@+id/id_item_select"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@null"
+        android:clickable="false"
+        android:src="@drawable/add_radio_uncheck"/>
+</RelativeLayout>

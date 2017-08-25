@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_transparent" >
+
+    <LinearLayout
+        android:id="@+id/save_img_popup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/item_popup_style"
+        android:layout_marginRight="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_above="@+id/circle_popup_cancel"
+        android:orientation="vertical" >
+        <Button
+            android:id="@+id/item_circle_popupwindows_save"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="#00000000"
+            android:textColor="#434343"
+            android:textSize="18sp"
+            android:text="保存图片到本地" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/circle_popup_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="12dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/item_popup_style">
+        <Button
+            android:id="@+id/item_circle_popupwindows_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="#00000000"
+            android:textColor="#434343"
+            android:textSize="18sp"
+            android:text="取消" />
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="growwhite">#EFEEF3</color>
+    <color name="transparent">#0000</color><!-- 透明 -->
+    <color name="white">#FFFFFF</color>
+    <color name="colorBlue">#199CB5</color>
+</resources>

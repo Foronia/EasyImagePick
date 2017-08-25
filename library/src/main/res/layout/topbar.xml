@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_title"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:background="@drawable/titlebar_bg"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp">
+
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:src="@drawable/back_bg"/>
+
+    <TextView
+        android:id="@+id/tv_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:paddingLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/tv_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"/>
+
+    <ImageView
+        android:id="@+id/iv_turnleft"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/turn_left"
+        android:layout_toLeftOf="@id/tv_center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/iv_turnright"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/turn_right"
+        android:layout_toRightOf="@id/tv_center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tv_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:paddingRight="5dp"/>
+
+    <ImageView
+        android:id="@+id/iv_right"
+        android:layout_width="21dp"
+        android:layout_height="21dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/btn_add"
+        android:visibility="gone"/>
+
+</RelativeLayout>
